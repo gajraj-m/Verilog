@@ -1,0 +1,77 @@
+$date
+	Fri Mar 18 11:53:27 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module jk_tb $end
+$var wire 1 ! Q $end
+$var wire 1 " QBAR $end
+$var reg 1 # CLK $end
+$var reg 1 $ J $end
+$var reg 1 % K $end
+$scope module inst0 $end
+$var wire 1 & clk $end
+$var wire 1 ' j $end
+$var wire 1 ( k $end
+$var reg 1 ) q $end
+$var reg 1 * qbar $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+1"
+0!
+$end
+#1
+1#
+1&
+#2
+1%
+1(
+0#
+0&
+#3
+1#
+1&
+#4
+0%
+0(
+1$
+1'
+0#
+0&
+#5
+0*
+0"
+1)
+1!
+1#
+1&
+#6
+0#
+0&
+#7
+1*
+1"
+0)
+0!
+1%
+1(
+1#
+1&
+#8
+0#
+0&
