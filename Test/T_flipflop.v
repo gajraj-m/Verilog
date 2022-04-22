@@ -1,15 +1,9 @@
 module T_flipflop(output reg q, input t, clk, clr);
 
-    always @ (posedge clk)
-    if(clr == 1'b1) begin
-        q <= 1'b0;
+    always @ (posedge clk) begin
+        if(clr) q = 0;
+        else begin
+        if(t)  q = ~q;
+        end
     end
-
-    else if(t == 1'b0) begin
-        q <= q;
-    end
-    else begin
-        q <= ~q;
-    end
-
 endmodule
